@@ -1,0 +1,52 @@
+/* comment */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+html {
+    font-size: 18px;
+}
+
+  body {
+      color: rgb(163, 119, 23);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.2;
+  }
+
+  .text-dark {
+color: rgb(63, 30, 73);
+  }
+  .text-uppercase {
+text-transform: uppercase;
+  }
+  .font-weight-bold {
+font-weight: 700;
+  }
+
+  a {
+      color: rgb(133, 45, 13);
+      text-decoration: none;
+  }
+
+  a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+  }
+
+  .btn {
+      background-color: transparent;
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.5;
+  }
+
+  .btn-dark{
+    background-color: rgb(144, 214, 214);
+  }
+  .btn-dark:hover{
+      color: rgb(255, 255, 255);
+      background-color: rgb(163, 119, 23);
+  }
