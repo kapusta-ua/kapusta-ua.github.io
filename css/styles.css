@@ -6,6 +6,7 @@
 
 html {
     font-size: 18px;
+    background-image: url(../images/1.jpg);
 }
 
   body {
@@ -17,13 +18,13 @@ html {
   }
 
   .text-dark {
-color: rgb(63, 30, 73);
+  color: rgb(63, 30, 73);
   }
   .text-uppercase {
-text-transform: uppercase;
+  text-transform: uppercase;
   }
   .font-weight-bold {
-font-weight: 700;
+  font-weight: 700;
   }
 
   a {
@@ -49,4 +50,15 @@ font-weight: 700;
   .btn-dark:hover{
       color: rgb(255, 255, 255);
       background-color: rgb(163, 119, 23);
+  }
+
+  .bg-white{
+    background: white 
+  }
+
+  .hero{
+      background-image:  url("../images/intro.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
   }
