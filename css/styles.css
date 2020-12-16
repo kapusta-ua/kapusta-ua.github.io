@@ -13,15 +13,15 @@ box-sizing: border-box;
 }
 
 html {
-    font-size: 18px;
-    background-image: url(../images/1.jpg);
+    font-size: var(--root-font-size);
 }
 
   body {
       color: var(--black);
-      font-family: 'Roboto', sans-serif;
+      font-family: var(--font-primary);
+      background-image: url(../images/1.jpg);
       font-weight: 400;
-      font-size: 1rem;
+      font-size: var(--font-size-default);
       line-height: 1.2;
       margin: 0;
   }
@@ -113,13 +113,88 @@ html {
     padding: 6em;
     background-color: rgb(44, 102, 99);
   }
-
+  
+  /* layouts */
   .container{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 15px;
   }
 
+  .row{
+    width: 100%;
+  }
+
+  .col{
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .col1{
+    max-width: calc(100%/12);
+  }
+
+  .col2{
+    max-width: calc(2*100%/12);
+  }
+
+  .col3{
+    max-width: calc(3*100%/12);
+  }
+
+  .col4{
+    max-width: calc(4*100%/12);
+  }
+
+  .col5{
+    max-width: calc(5*100%/12);
+  }
+
+  .col6{
+    max-width: calc(6*100%/12);
+  }
+
+  .col7{
+    max-width: calc(7*100%/12);
+  }
+
+  .col8{
+    max-width: calc(8*100%/12);
+  }
+
+  .col9{
+    max-width: calc(9*100%/12);
+  }
+
+  .col10{
+    max-width: calc(10*100%/12);
+  }
+
+  .col11{
+    max-width: calc(11*100%/12);
+  }
+
+  .col12{
+    max-width: calc(12*100%/12);
+  }
+
+  .float-left{
+    float: left;
+  }
+
+  .float-right{
+    float: right;
+  }
+
+  .clearfix::after{
+    clear:both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+  /* navigation */
   nav{
     background-color: var(--white);
     padding: 1rem 1.5rem;

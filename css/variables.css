@@ -2,4 +2,10 @@
 
     --black: rgba(160, 175, 18, 0.9);
     --white: #eee;
+
+    --font-primary: 'Roboto', sans-serif;
+    --root-font-size: 16px;
+    
+    --font-size-default: calc(var(--root-font-size)/14*1rem);
+
 }
