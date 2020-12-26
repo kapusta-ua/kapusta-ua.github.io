@@ -4,73 +4,83 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Tandem jewelry 2.0</title>
-        <link href="css/styles.css" rel="stylesheet">
         <link href="css/variables.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
     </head>
 
     <body>
-        <!--navigation 0-9a-f 255-->
-            <nav id="nav">
-                <div class="navbar" id="navbar">
-                    <div class="navbar-brand">
-                    <h3><span class="text-dark text-uppercase font-weight-bold">Navigation</span></h3>
+        <header class="bg-white">
+            <h1><span>TandemJewelry 2.0</span></h1>
+
+            <!--navigation 0-9a-f 255-->
+                <nav id="nav">
+                    <div class="navbar" id="navbar">
+                        <input type="checkbox" id="hamburger">
+                        <label for="hamburger"><i class="nav-toggle fas fa-bars"></i></label>
+                        <div class="navbar-brand">
+                            <a href="#"><span class="text-dark text-uppercase font-weight-bold">TJ</span></a>
+                        </div>
+                        <ul class="navbar-nav brackets">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="catalog.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="navbar-tool">
+                            <li><a href="#" title="Shopping cart"><i class="fas fa-cart-plus"></i></a></li>
+                            <li><a href="#" title="Likes"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
+                        </ul>
                     </div>
-                    <ul class="navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="catalog.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                </nav>
+        </header>
+
+        <img src="images/contacts.jpeg">
+
+        <!--footer--> 
+            <footer class="footer">
+                <div class="container py-4">
+                    <div class="row py-5">
+                        <div class="col col-md-4 mb-3">
+                            <h3>Services</h3>
+                            <ul class="list-unstyled">
+                                <li class="footer-link">Help</li>
+                                <li class="footer-link">Help</li>
+                                <li class="footer-link">Help</li>
+                                <li class="footer-link">Help</li>
+                                <li class="footer-link">Help</li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-4 mb-3">
+                            <h3>Company</h3>
+                            <ul class="list-unstyled">
+                                <li class="footer-link">What we do</li>
+                                <li class="footer-link">Help</li>
+                                <li class="footer-link">Help</li>
+                                <li class="footer-link">Help</li>
+                                <li class="footer-link">FAQs</li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-4">
+                            <h3>Social media</h3>
+                            <ul class="list-unstyled">
+                                <li class="footer-link"><i class="fab fa-twitter"></i>twitter</li>
+                                <li class="footer-link"><i class="fab fa-facebook"></i>facebook</li>
+                                <li class="footer-link"><i class="fab fa-instagram"></i>instagram</li>
+                                <li class="footer-link"><i class="fab fa-google-plus"></i>google</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-      <img src="images/contacts.jpeg">
-      <!--footer--> 
-          <footer class="footer">
-              <div class="container py-4">
-                  <div class="row py-5">
-                      <div class="col col-4 mb-3">
-                          <h3>Services</h3>
-                          <ul class="list-unstyled">
-                          <li class="footer-link">Help</li>
-                          <li class="footer-link">Help</li>
-                          <li class="footer-link">Help</li>
-                          <li class="footer-link">Help</li>
-                          <li class="footer-link">Help</li>
-                          </ul>
-                      </div>
 
-                      <div class="col col-4 mb-3">
-                          <h3>Company</h3>
-                          <ul class="list-unstyled">
-                          <li class="footer-link">What we do</li>
-                          <li class="footer-link">Help</li>
-                          <li class="footer-link">Help</li>
-                          <li class="footer-link">Help</li>
-                          <li class="footer-link">FAQs</li>
-                          </ul>
-                      </div>
-
-                      <div class="col col-4">
-                          <h3>Social media</h3>
-                          <ul class="list-unstyled">
-                          <li class="footer-link"><i class="fab fa-twitter"></i>twitter</li>
-                          <li class="footer-link"><i class="fab fa-facebook"></i>facebook</li>
-                          <li class="footer-link"><i class="fab fa-instagram"></i>instagram</li>
-                          <li class="footer-link"><i class="fab fa-google-plus"></i>google</li>
-                          </ul>
-                      </div>
-                  </div>
-
-                  <div class="border-top pt-4 row">
-                      <div class="col col-6">
-                      <p>&COPY; 2020 All rights reserved</p>
-                      </div>
-
-                      <div class="col col-6">
-                      <p>Made by kapusta-ua</p>
-                      </div>
-                  </div> 
-              </div>
-          </footer>
+                <div class="border-top pt-4 row">
+                    <div class="col col-md-6">
+                        <p>&COPY; 2020 All rights reserved</p>
+                    </div>
+                    <div class="col col-md-6">
+                        <p>Made by kapusta-ua</p>
+                    </div>
+                </div> 
+            </footer>
     </body>
 </html>
