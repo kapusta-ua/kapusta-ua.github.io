@@ -7,11 +7,9 @@
         <link href="css/variables.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
     </head>
-
     <body>
         <header class="bg-white">
             <h1><span>TandemJewelry 2.0</span></h1>
-
             <!--navigation 0-9a-f 255-->
                 <nav id="nav">
                     <div class="navbar" id="navbar">
@@ -34,9 +32,70 @@
                     </div>
                 </nav>
         </header>
-
-        <img src="images/contacts.jpeg">
-
+        <div class="container">            
+                <header>
+                    <!--header-->
+                        <p class="text-muted text-uppercase mb-1">Our mission is Doing for pleasure</p>
+                        <h1 class="text-uppercase mb-4">Contact Us</h1>
+                </header>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Tandem Jewelry</h3>
+                        <ul>
+                            <li>instagram: tandemjewelry_</li>
+                            <li>facebook: tandejewelry 2</li>
+                            <li><a href="#">[email&#160;protected]</a></li>
+                            <li>tel: +380509327320</li>
+                        </ul>
+                    </div>                
+                    <div class="col-md-8">
+                        <form method="POST">
+                            <table class="contact">
+                                <tr class="table-row">
+                                    <td class="table-cell">
+                                        <label for="name">Your name</label>
+                                        <input id="name" type="text" name="username">
+                                    </td>
+                                    <td class="table-cell">
+                                        <label for="company">Your Company</label>
+                                        <input id="company" type="text" name="company">
+                                    </td>
+                                </tr>                                
+                                <tr class="table-row">
+                                    <td class="table-cell">
+                                        <label for="email">Your email</label>
+                                        <input id="email" type="email" name="email" placeholder="name@name.name">
+                                    </td>
+                                    <td class="table-cell">
+                                        <label for="phone">Phone number</label>
+                                        <input id="phone" type="tel" name="phone" placeholder="0001112222" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                                    </td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell" colspan="2">
+                                        <label for="message">Message</label>
+                                        <textarea id="message" name="message" row="5" placeholder="Enter your message here"></textarea>
+                                    </td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="table-cell">
+                                        <button type="submit" name="submit">Send</button>
+                                    </td>                       
+                                    <td class="table-cell">
+                                        <button type="reset" name="reset">Reset</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+        </div>
+        <!--sibscribe-->
+            <section>
+                <header>
+            
+                </header>
+            </section>
         <!--footer--> 
             <footer class="footer">
                 <div class="container py-4">
@@ -64,15 +123,14 @@
                         <div class="col col-md-4">
                             <h3>Social media</h3>
                             <ul class="list-unstyled">
-                                <li class="footer-link"><i class="fab fa-twitter"></i>twitter</li>
-                                <li class="footer-link"><i class="fab fa-facebook"></i>facebook</li>
-                                <li class="footer-link"><i class="fab fa-instagram"></i>instagram</li>
-                                <li class="footer-link"><i class="fab fa-google-plus"></i>google</li>
+                                <li class="footer-link social-twitter"><i class="fab fa-twitter"></i>twitter</li>
+                                <li class="footer-link social-facebook"><i class="fab fa-facebook"></i>facebook</li>
+                                <li class="footer-link social-instagram"><i class="fab fa-instagram"></i>instagram</li>
+                                <li class="footer-link social-google"><i class="fab fa-google-plus"></i>google</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
                 <div class="border-top pt-4 row">
                     <div class="col col-md-6">
                         <p>&COPY; 2020 All rights reserved</p>
