@@ -97,23 +97,6 @@ a:hover {
     background-color: rgb(218, 171, 190);
 }
 
-.hero {
-    background-image: url("../images/tandem.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.hero header {
-    padding: 8em 0% 8em 0%;
-}
-
-.hero h1 {
-    padding: 2rem 0;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
 .over-footer {
     background-repeat: no-repeat;
     background-size: cover;
@@ -642,4 +625,112 @@ nav {
     background-color: rgb(84, 25, 112);
     border: 0;
     color: rgb(218, 171, 190);
+}
+
+/* slider */
+
+.hero {
+    /* background-image: url("../images/tandem.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    min-height: 15em;
+    height: 20em;
+}
+
+.hero header {
+    padding: 8em 0% 8em 0%;
+}
+
+.hero h1 {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.slider {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.slides .slide {
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    max-width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+
+.overflow {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slides .items {
+    width: 500%;
+    line-height: 0;
+    margin: 0;
+    position: relative;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    10% {
+        left: 0%;
+    }
+    20% {
+        left: -100%;
+    }
+    30% {
+        left: -200%;
+    }
+    40% {
+        left: -300%;
+    }
+    50% {
+        left: -400%;
+    }
+    60% {
+        left: -300%;
+    }
+    70% {
+        left: -200%;
+    }
+    80% {
+        left: -100%;
+    }
+    90% {
+        left: -20%;
+    }
+    95% {
+        left: -10%;
+    }
+    100% {
+        left: -0%;
+    }
+}
+
+.slider .items {
+    animation: 20s slider infinite;
 }
